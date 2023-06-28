@@ -1,0 +1,6 @@
+POST http://localhost:4000/recipe
+Content-Type: application/json
+
+{
+    "prompt":"Write a recipe based on these ingredients and instructions:\n\nFrito Pie\n\nIngredients:\nFritos\nChili\nShredded cheddar cheese\nSweet white or red onions, diced small\nSour cream\n\nInstructions:"
+}
