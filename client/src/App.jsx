@@ -5,6 +5,7 @@ import {Route,Routes} from 'react-router-dom'
 import Maths from "./components/Maths"
 import QuestionAnswer from "./components/QuestionAnswer"
 import Summerizer from "./components/Summerizer"
+import BlogGen from "./components/BlogGen"
 function App() { 
 
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/math" element={<Maths/>}/>
         <Route path="/qa" element={<QuestionAnswer/>}/>
         <Route path="/sum" element={<Summerizer/>}/>
+        <Route path="/blog" element={<BlogGen/>}/>
       </Routes>
 
     </div>
