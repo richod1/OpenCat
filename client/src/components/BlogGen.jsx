@@ -11,7 +11,7 @@ const BlogGen = () => {
 
     const fetchData= async()=>{
         const configuration=new Configuration({
-            apiKey:"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",
+            apiKey:"",
         })
         const openai= new OpenAIApi(configuration)
 
